@@ -5,3 +5,12 @@
      يرجى مراجعة الأقسام وتجربة الاختبارات.",
    "date": "2023-11-01"
 }
+{
+   "id": "1",
+   "title": "عنوان التحديث",
+   "content": "تفاصيل التحديث هنا",
+   "date": "2024-05-07",
+   "min_version": "1.0.0",
+   "store_url":
+     "https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME"
+}

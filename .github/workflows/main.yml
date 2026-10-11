@@ -1,0 +1,68 @@
+name: VLESS Cloudflare Tunnel
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+
+    - name: Download Xray and Cloudflared
+      run: |
+        wget -O xray.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
+        unzip xray.zip -d xray
+        wget -O cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+        chmod +x cloudflared
+
+    - name: Create Xray Config
+      run: |
+        cat << 'EOF' > xray/config.json
+        {
+          "log": { "loglevel": "none" },
+          "inbounds": [{
+            "port": 10008,
+            "protocol": "vless",
+            "settings": {
+              "clients": [{ "id": "b831381d-6324-4d53-ad4f-8cda48b30811" }],
+              "decryption": "none"
+            },
+            "streamSettings": {
+              "network": "ws",
+              "wsSettings": { "path": "/vless-ws" }
+            }
+          }],
+          "outbounds": [{ "protocol": "freedom" }]
+        }
+        EOF
+
+    - name: Start Xray & Cloudflare Tunnel
+      run: |
+        ./xray/xray run -config xray/config.json &
+        ./cloudflared tunnel --url http://localhost:10008 --no-autoupdate > tunnel.log 2>&1 &
+        sleep 5
+        cat tunnel.log
+
+    - name: Generate VLESS Link and Keep Alive
+      run: |
+        TUNNEL_URL=$(grep -oE "https://[a-zA-Z0-9.-]+\.trycloudflare\.com" tunnel.log | head -n 1)
+        DOMAIN=$(echo $TUNNEL_URL | awk -F/ '{print $3}')
+        
+        echo "=================================================="
+        echo "YOUR TUNNEL URL: $TUNNEL_URL"
+        echo "YOUR DOMAIN: $DOMAIN"
+        echo "=================================================="
+        
+        VLESS_LINK="vless://b831381d-6324-4d53-ad4f-8cda48b30811@${DOMAIN}:443?encryption=none&security=tls&type=ws&path=%2Fvless-ws#⭐GitHub-VLESS-6H"
+        
+        echo "--------------------------------------------------"
+        echo "COPY YOUR VLESS LINK BELOW:"
+        echo "$VLESS_LINK"
+        echo "--------------------------------------------------"
+        
+        echo "Keeping runner alive for 6 hours..."
+        sleep 21600

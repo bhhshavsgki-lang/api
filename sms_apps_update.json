@@ -78,5 +78,15 @@
     "message": "A new version of Temp SMS is available. Please update now to continue.",
     "button_text": "Update Now",
     "store_url": "https://play.google.com/store/apps/details?id=com.free.smsreceiver"
+  },
+  "com.timing.guide.finder": {
+    "app_name": "Timing Repair Guide Finder",
+    "min_version_code": 1,
+    "latest_version": "1.0.3",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of Timing Repair Guide Finder is available with updated vehicle manuals and timing diagrams.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.timing.guide.finder"
   }
 }

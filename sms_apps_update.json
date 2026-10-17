@@ -1,0 +1,82 @@
+{
+  "com.free.tempnumber": {
+    "app_name": "SMS Receiver: Temp Number",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of SMS Receiver is available. Please update now to continue receiving SMS messages.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.free.tempnumber"
+  },
+  "com.free.smsprivatenumber": {
+    "app_name": "Private Number: Burner SMS",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of Private Number is available. Please update now to continue.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.free.smsprivatenumber"
+  },
+  "com.free.smsotpverification": {
+    "app_name": "Receive SMS: OTP Verification",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of OTP Verification is available. Please update now to continue.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.free.smsotpverification"
+  },
+  "com.free.smsreceiveronline": {
+    "app_name": "Temp SMS: Receive Texts Online",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of Temp SMS Online is available. Please update now to continue.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.free.smsreceiveronline"
+  },
+  "com.free.smsrglobalsms": {
+    "app_name": "Virtual Number: Global SMS",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of Virtual Number is available. Please update now to continue.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.free.smsrglobalsms"
+  },
+  "com.gratuit.recepteursms": {
+    "app_name": "SMS Réception de SMS",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "Mise à jour requise",
+    "message": "Une nouvelle version de SMS Réception est disponible. Veuillez mettre à jour pour continuer.",
+    "button_text": "Mettre à jour",
+    "store_url": "https://play.google.com/store/apps/details?id=com.gratuit.recepteursms"
+  },
+  "com.freesms.freesms": {
+    "app_name": "رسائل نصية مؤقتة -Temp SMS",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "تحديث جديد متوفر",
+    "message": "يتوفر إصدار أحدث بميزات جديدة وأرقام إضافية. يرجى التحديث للمتابعة.",
+    "button_text": "تحديث الآن",
+    "store_url": "https://play.google.com/store/apps/details?id=com.freesms.freesms"
+  },
+  "com.free.smsreceiver": {
+    "app_name": "Temp SMS - Receive Texts",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of Temp SMS is available. Please update now to continue.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.free.smsreceiver"
+  }
+}

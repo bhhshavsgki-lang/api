@@ -71,7 +71,7 @@
   },
   "com.free.smsreceiver": {
     "app_name": "Temp SMS - Receive Texts",
-    "min_version_code": 2,
+    "min_version_code": 9,
     "latest_version": "2.0.0",
     "force_update": false,
     "title": "Update Available",

@@ -88,5 +88,15 @@
     "message": "A new version of Timing Repair Guide Finder is available with updated vehicle manuals and timing diagrams.",
     "button_text": "Update Now",
     "store_url": "https://play.google.com/store/apps/details?id=com.timing.guide.finder"
+  },
+  "com.wiring.diagram.finder": {
+    "app_name": "Car Wiring Diagram Finder",
+    "min_version_code": 1,
+    "latest_version": "1.0.0",
+    "force_update": false,
+    "title": "Update Available",
+    "message": "A new version of Car Wiring Diagram Finder is available with new automotive electrical schematics.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.wiring.diagram.finder"
   }
 }

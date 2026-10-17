@@ -81,8 +81,8 @@
   },
   "com.timing.guide.finder": {
     "app_name": "Timing Repair Guide Finder",
-    "min_version_code": 1,
-    "latest_version": "1.0.3",
+    "min_version_code": 6,
+    "latest_version": "6.0.0",
     "force_update": false,
     "title": "Update Available",
     "message": "A new version of Timing Repair Guide Finder is available with updated vehicle manuals and timing diagrams.",

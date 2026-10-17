@@ -91,8 +91,8 @@
   },
   "com.wiring.diagram.finder": {
     "app_name": "Car Wiring Diagram Finder",
-    "min_version_code": 1,
-    "latest_version": "1.0.0",
+    "min_version_code": 2,
+    "latest_version": "2.0.0",
     "force_update": false,
     "title": "Update Available",
     "message": "A new version of Car Wiring Diagram Finder is available with new automotive electrical schematics.",

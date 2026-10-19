@@ -50,23 +50,23 @@
     "store_url": "https://play.google.com/store/apps/details?id=com.free.smsrglobalsms"
   },
   "com.gratuit.recepteursms": {
-    "app_name": "SMS Réception de SMS",
+    "app_name": "SMS R\u00e9ception de SMS",
     "min_version_code": 2,
     "latest_version": "2.0.0",
     "force_update": false,
-    "title": "Mise à jour requise",
-    "message": "Une nouvelle version de SMS Réception est disponible. Veuillez mettre à jour pour continuer.",
-    "button_text": "Mettre à jour",
+    "title": "Mise \u00e0 jour requise",
+    "message": "Une nouvelle version de SMS R\u00e9ception est disponible. Veuillez mettre \u00e0 jour pour continuer.",
+    "button_text": "Mettre \u00e0 jour",
     "store_url": "https://play.google.com/store/apps/details?id=com.gratuit.recepteursms"
   },
   "com.freesms.freesms": {
-    "app_name": "رسائل نصية مؤقتة -Temp SMS",
+    "app_name": "\u0631\u0633\u0627\u0626\u0644 \u0646\u0635\u064a\u0629 \u0645\u0624\u0642\u062a\u0629 -Temp SMS",
     "min_version_code": 2,
     "latest_version": "2.0.0",
     "force_update": false,
-    "title": "تحديث جديد متوفر",
-    "message": "يتوفر إصدار أحدث بميزات جديدة وأرقام إضافية. يرجى التحديث للمتابعة.",
-    "button_text": "تحديث الآن",
+    "title": "\u062a\u062d\u062f\u064a\u062b \u062c\u062f\u064a\u062f \u0645\u062a\u0648\u0641\u0631",
+    "message": "\u064a\u062a\u0648\u0641\u0631 \u0625\u0635\u062f\u0627\u0631 \u0623\u062d\u062f\u062b \u0628\u0645\u064a\u0632\u0627\u062a \u062c\u062f\u064a\u062f\u0629 \u0648\u0623\u0631\u0642\u0627\u0645 \u0625\u0636\u0627\u0641\u064a\u0629. \u064a\u0631\u062c\u0649 \u0627\u0644\u062a\u062d\u062f\u064a\u062b \u0644\u0644\u0645\u062a\u0627\u0628\u0639\u0629.",
+    "button_text": "\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0622\u0646",
     "store_url": "https://play.google.com/store/apps/details?id=com.freesms.freesms"
   },
   "com.free.smsreceiver": {
@@ -98,5 +98,13 @@
     "message": "A new version of Car Wiring Diagram Finder is available with new automotive electrical schematics.",
     "button_text": "Update Now",
     "store_url": "https://play.google.com/store/apps/details?id=com.wiring.diagram.finder"
+  },
+  "com.vip.racing.racing": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.vip.racing.racing"
   }
 }

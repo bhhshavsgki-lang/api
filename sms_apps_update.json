@@ -106,5 +106,37 @@
     "message": "A new version with performance improvements and features is available.",
     "button_text": "Update Now",
     "store_url": "https://play.google.com/store/apps/details?id=com.vip.racing.racing"
+  },
+  "com.antigravity.harvest_pop": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.harvest_pop"
+  },
+  "com.antigravity.blossom_sort": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.blossom_sort"
+  },
+  "com.antigravity.jewel_kingdom": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.jewel_kingdom"
+  },
+  "com.antigravity.tile_harvest": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.tile_harvest"
   }
 }

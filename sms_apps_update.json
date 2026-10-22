@@ -138,5 +138,53 @@
     "message": "A new version with performance improvements and features is available.",
     "button_text": "Update Now",
     "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.tile_harvest"
+  },
+  "com.antigravity.fruit_blast": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.fruit_blast"
+  },
+  "com.antigravity.looking_aliens": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.looking_aliens"
+  },
+  "com.antigravity.hot_pot_chef": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.hot_pot_chef"
+  },
+  "com.antigravity.mine_hunt": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.mine_hunt"
+  },
+  "com.antigravity.hook_brainrot": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.hook_brainrot"
+  },
+  "com.antigravity.merge_harvest": {
+    "min_version_code": 1,
+    "force_update": false,
+    "title": "New Update Available",
+    "message": "A new version with performance improvements and features is available.",
+    "button_text": "Update Now",
+    "store_url": "https://play.google.com/store/apps/details?id=com.antigravity.merge_harvest"
   }
 }
